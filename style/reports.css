@@ -1,0 +1,27 @@
+#reportTable
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	width: 100%;
+}
+#reportTable td, #reportTable th 
+{
+	font-size:1.2em;
+	border:1px solid #94bae1;
+	padding:3px 7px 2px 7px;
+}
+#reportTable th 
+{
+	font-size:1.3em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#3685a9;
+	color:#fff;
+	font-variant: small-caps;
+}
+#reportTable tr.alt td 
+{
+	color:#000;
+	background-color:#cbdff4;
+}

@@ -1,0 +1,350 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+	background: #24428f;
+	font-family: Myriad-Pro, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.clear {
+	clear: both;
+}
+
+#top {
+	height: 115px;
+	background: #eee;
+	border-bottom: 5px solid #ccc;
+}
+
+#header {
+	width: 960px;
+	height: 120px;
+	background: #F47321;
+	margin: 0 auto;
+}
+
+#topHeader {
+	width: 770px;
+	height: 120px;
+	background: url('images/logo.png') no-repeat;
+	float: left;
+}
+
+#topNav {
+	height: 25px;
+	position: relative;
+	top: 95px;
+	float: right;
+}
+
+#topNav ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#topNav li
+{
+	float:left;
+}
+#topNav li a
+{
+	display:block;
+	padding: 5px 10px 5px 5px;
+	text-decoration: none;
+	color: #f9d2ad;
+	font-weight: bold;
+}
+
+#topNav li a:hover {
+	color: #1b316d;
+}
+
+#topLogin {
+	width: 190px;
+	height: 120px;
+	float: left;
+	background: rgb(232,141,85); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(232,141,85,1) 0%, rgba(239,171,131,1) 50%, rgba(232,141,85,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,141,85,1)), color-stop(50%,rgba(239,171,131,1)), color-stop(100%,rgba(232,141,85,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(232,141,85,1) 0%,rgba(239,171,131,1) 50%,rgba(232,141,85,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(232,141,85,1) 0%,rgba(239,171,131,1) 50%,rgba(232,141,85,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(232,141,85,1) 0%,rgba(239,171,131,1) 50%,rgba(232,141,85,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(232,141,85,1) 0%,rgba(239,171,131,1) 50%,rgba(232,141,85,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e88d55', endColorstr='#e88d55',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+	font-weight: bold;
+	color: #995226;
+}
+
+
+.user {
+	width: 150px;
+	height: 15px;
+	padding: 5px;
+	margin: 25px auto;
+	text-align: center;
+	background: #f47321;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.loginButton {
+	width: 100px;
+	height: 27px;
+	margin: 47px 0 0 40px;
+}
+
+.loginButton a {
+	padding: 8px 20px 10px 40px;
+	color: #3a58a5;
+	font-family: Myriad-pro, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	text-decoration: none;
+	background: url('images/login.png') no-repeat;
+	letter-spacing: 2px;
+}
+
+.loginButton a:hover {
+	background: url('images/login_over.png') no-repeat;
+	color: #fff;
+}
+
+#main {
+	width: 960px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+#mainHeader {
+	width: 770px;
+	height: 210px;
+	background: url('images/header.jpg');
+	float: left;
+}
+
+#userMenu {
+	float: left;
+	width: 190px;
+	height: 210px;
+	background: #f47321;
+}
+
+#userMenu ul p {
+	margin: 0;
+	padding: 8px 0 4px 0;
+	width: 190px;
+	height: 18px;
+	background: url('images/user.png') no-repeat #f47321;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+#userMenu ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#userMenu li {
+	background: url('images/menu_sep_bg.png') no-repeat;
+}
+
+#userMenu li a {
+	width: 180px;
+	display:block;
+	padding: 15px 5px;
+	margin: 0px auto;
+	text-align: center;
+	display:inline-block;
+	color:#ffffff;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #cc9f52;
+}
+
+#userMenu li a:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+#userMenu li a:active {
+	position:relative;
+	top:1px;
+}
+
+#pageTitle {
+	position: relative;
+}
+
+#pageTitle h2
+{
+   font-family : Arial, sans-serif;
+   font-size: 1.4em;
+   font-weight:bold;
+   color:#c5cee6;
+   padding: 10px 0 0 20px;
+   margin: 0;
+   letter-spacing: 5px;
+   font-variant: small-caps;
+}
+
+.mainBody {
+	padding: 10px;
+}
+
+/* Login Page Start */
+
+#login {
+	font-size: 18px;
+	padding: 5px;
+	color: #24428f;
+}
+
+#loginButton input {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background-color:#63b8ee;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+
+/* Login Page End */
+
+/* Change Password Page Start */
+
+#changepwd {
+	font-size: 18px;
+	padding: 5px;
+	color: #24428f;
+}
+
+#changeButton input {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background-color:#63b8ee;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}
+
+/* Change Password Page End */
+
+/* Logged in Home Page Start */
+
+#createStudent a {
+	display: block;
+	width: 140px;
+	height: 60px;
+	background: url('images/create_student.png') no-repeat #d9e6ec;
+	background-position: 10px center;
+	padding: 15px 10px 0 0;
+	text-align: right;
+	font-size: 20px;
+	line-height: 25px;
+	text-decoration: none;
+	color: #333;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #99bfd0;
+	
+}
+
+#createStudent a:hover {
+	background: url('images/create_student.png') no-repeat #99bfd0;
+	background-position: 10px center;
+	color: #fff;
+}
+
+/* Logged In Home Page END*/
+
+/*Reports Page Start */
+
+.reportButtons {
+	width: 210px;
+}
+
+.reportButton input {
+	height: 30px;
+	width: 70px;
+	border: none;
+	font-weight: bold;
+	padding: 0 0 5px 26px;
+	margin-top: 3px;
+	text-align: left;
+	float: left;
+}
+
+.reportButton input:hover {
+	color: #3685a9;
+}
+
+#detailsButton input {
+	background: url('images/details.gif') no-repeat;
+}
+
+#editButton input {
+	background: url('images/edit.png') no-repeat;
+}
+
+#deleteButton input {
+	background: url('images/delete.png') no-repeat;
+}
+
+/*Reports Page Eng*/
+
+
+
+.courseButton a {
+	height: 30px;
+	width: 100px;
+	border: none;
+	font-weight: bold;
+	padding: 0 0 0 26px;
+	margin-top: 3px;
+	text-align: left;
+	float: left;
+	text-decoration: none;
+	color: #000;
+}
+
+.courseButton a:hover {
+	color: #3685A9;
+}
+
+#viewButton a{
+	background: url('images/details.gif') no-repeat;
+}
+

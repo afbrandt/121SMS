@@ -1,0 +1,75 @@
+.tableTitle {
+	width: 300px;
+	padding: 4px;
+	background: #3685A9;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-variant: small-caps;
+	font-size: 1.3em;
+}
+
+.tableRow {
+	width: 308px;
+	height: 20px;
+	background: #9ecfe6;
+}
+
+.altTableRow {
+	width: 308px;
+	height: 20px;
+	background: #c0e3f3;
+}
+
+.tableLabel {
+	float: left;
+	padding: 2px;
+	width: 100px;
+	background: rgba(33,95,172,0.25);
+}
+
+.tableField {
+	float: left;
+	padding: 2px;
+	width: 200px;
+}
+
+#basicInfo {
+	float: left;
+}
+
+#result {
+	float: right;
+}
+
+.semesterPerformance {
+	margin-top: 20px;
+}
+
+#performance
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	width: 100%;
+}
+#performance td, #performance th 
+{
+	font-size:1.2em;
+	border:1px solid #94bae1;
+	padding:3px 7px 2px 7px;
+}
+#performance th 
+{
+	font-size:1.3em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#3685a9;
+	color:#fff;
+	font-variant: small-caps;
+}
+#performance tr.alt td 
+{
+	color:#000;
+	background-color:#cbdff4;
+}
